@@ -1,0 +1,5 @@
+First_name;Last_name;Patronymic;Post;Department;Email;Phone;Login;Password;Ou_name;Group_names;Path_to_home_folder;Path_to_profile
+Alexei;Tsydenov;Gomboevich;Student;M33091;;89500852022;Leha;135TAGLorr!;unit-for-delete;"gM33091,gManagers";;
+Renat;Mirzabekov;Eldarovich;Student;M33091;;;Reno;135MRERayn!;unit-for-delete;"gM33091";;
+Lev;Maksimov;Sergeevich;Student;M33091;;;Leva;135MLSyhp!;unit-for-delete;"gM33091";;
+Nikita;Fomkin;S;Student;M33091;;;Nekit;135FNKachok!;unit-for-delete;"gM33091";;
