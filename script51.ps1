@@ -307,7 +307,14 @@ $Html = "<html>`n" + $Log + "`nUsers created: $($CreatedUserCounter).`nGroups cr
 Set-Content -Path "Creation_log.html" -Value $Html
 
 
-
+Write-Host "`nDo you want to clear all created users? [Y/N]"
+$option = Read-Host 
+if ($option -eq "Y" -or $option -eq "y" -or $option -eq "Н" -or $option -eq "н") {
+    PrintNewLine
+    PrintOperationBegin "Deleting created users..."
+    dsquery user "OU=unit-for-delete,DC=ad-training,DC=loc" | dsrm -noprompt
+    PrintOperationSuccess "Users has been deleteed."
+}
 
 
 
